@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowRight, Shield, Terminal } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Magnetic from "./ui/Magnetic";
 
 const Stat = ({ label, value }: { label: string, value: string }) => (
@@ -21,17 +21,6 @@ const Stat = ({ label, value }: { label: string, value: string }) => (
       {label}
     </motion.span>
   </div>
-);
-
-const FloatingCard = ({ children, className, delay = 0 }: { children: React.ReactNode, className?: string, delay?: number }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 20, scale: 0.9 }}
-    animate={{ opacity: 1, y: 0, scale: 1 }}
-    transition={{ duration: 1, delay, ease: [0.19, 1, 0.22, 1] }}
-    className={`glass px-4 py-3 rounded-2xl border-white/5 backdrop-blur-xl pointer-events-none ${className}`}
-  >
-    {children}
-  </motion.div>
 );
 
 export default function Hero() {
@@ -136,18 +125,6 @@ export default function Hero() {
               referrerPolicy="no-referrer"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80" />
-
-            {/* Overlaid Badges */}
-
-
-            <FloatingCard className="absolute top-1/2 -right-8 -translate-y-1/2" delay={1}>
-               <div className="flex items-center gap-3">
-                 <div className="flex flex-col text-right">
-                   <span className="text-[8px] font-black uppercase text-white/40 tracking-[0.2em]">STACK</span>
-                   <span className="text-[11px] font-black text-white">React · FastAPI · LLM</span>
-                 </div>
-               </div>
-            </FloatingCard>
 
             <div className="absolute bottom-12 left-12 right-12 flex items-end justify-between">
               <div className="space-y-1">

@@ -24,10 +24,10 @@ const gifs = [
 ];
 
 let counter = 0;
-content = content.replace(/image:\s*".*?",/g, () => {
+content = content.replace(/image:\s*".*?"(,)?/g, (match, comma) => {
     const img = gifs[counter % gifs.length];
     counter++;
-    return 'image: "' + img + '",';
+    return 'image: "' + img + '"' + (comma ? ',' : '');
 });
 
 // Let's also make sure the hover effect is intense

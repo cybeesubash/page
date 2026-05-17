@@ -25,7 +25,7 @@ const projects: Project[] = [
     description: "Zero-day autonomous threat hunting algorithm. Detects behavioral anomalies in distributed neural networks before exploitation.",
     tech: ["Rust", "TensorFlow", "Zero-Trust"],
     link: "https://github.com/masssubash240",
-    image: "https://images.unsplash.com/photo-1620825937374-87fc1e6aaf36?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop",
     featured: true,
     stars: 5
   },
@@ -36,7 +36,7 @@ const projects: Project[] = [
     description: "LLM attack detection & monitoring platform. Detects prompt injection, jailbreaks, data poisoning, and model stealing with real-time dashboards.",
     tech: ["Python", "LLM Security", "Threat Detection"],
     link: "https://github.com/masssubash240/LLM--SECURITYX",
-    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop",
     featured: true
   },
   {
@@ -46,7 +46,7 @@ const projects: Project[] = [
     description: "AI-driven cyber defense system with threat detection, real-time monitoring, and automated response capabilities.",
     tech: ["Python", "Flask", "Groq AI", "VirusTotal"],
     link: "https://github.com/masssubash240/-AI-Cyber-Defense-System",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1510511459019-5dee99c48db8?q=80&w=2670&auto=format&fit=crop",
     stars: 1
   },
   {
@@ -56,7 +56,7 @@ const projects: Project[] = [
     description: "OSINT-powered AI system for detecting data breaches. Aggregates intelligence to identify compromised assets and leaked credentials.",
     tech: ["Python", "Flask", "OpenCV", "Imagga AI", "OSINT"],
     link: "https://github.com/masssubash240/OSINT-AI-driven-Data-Breach-Detection",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "4",
@@ -65,7 +65,7 @@ const projects: Project[] = [
     description: "AI-driven scam and phishing detection engine. Analyzes messages and URLs in real time to flag social engineering attempts.",
     tech: ["JavaScript", "AI Security", "NLP"],
     link: "https://github.com/masssubash240/AI--powered--scam-detection",
-    image: "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=2606&auto=format&fit=crop"
   },
   {
     id: "5",
@@ -74,7 +74,7 @@ const projects: Project[] = [
     description: "Advanced IP geolocation and tracing tool. Maps IP addresses to geographic and network data including ISP and ASN.",
     tech: ["Python", "Geolocation", "OSINT"],
     link: "https://github.com/masssubash240/Advanced-IP-Tracer-Tool",
-    image: "https://images.unsplash.com/photo-1510511459019-5dee99c48db8?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1551288049-bb25a5f4981d?q=80&w=2670&auto=format&fit=crop",
     stars: 1
   },
   {
@@ -84,7 +84,7 @@ const projects: Project[] = [
     description: "Professional-grade cybersecurity scanner. Performs port scanning, service enumeration, and vulnerability assessment.",
     tech: ["Python", "Nmap", "Pentesting"],
     link: "https://github.com/masssubash240/CyberScan-Pro",
-    image: "https://images.unsplash.com/photo-1558483320-dc69223e75e9?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "7",
@@ -93,7 +93,7 @@ const projects: Project[] = [
     description: "Remote Access Trojan for security research. Demonstrates C2 communication, remote shell, and stealth persistence.",
     tech: ["Python", "C2", "Cyber Research"],
     link: "https://github.com/masssubash240/GHOST-Matrix-.-RAT-",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2670&auto=format&fit=crop",
     stars: 1
   },
   {
@@ -103,7 +103,7 @@ const projects: Project[] = [
     description: "Wireless network security testing toolkit covering WPA2 handshake capture and deauthentication attacks.",
     tech: ["HTML", "Aircrack-ng", "Wireless"],
     link: "https://github.com/masssubash240/WIFI-Pentesting",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1551703599-6b3e8379aa8b?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "9",
@@ -112,7 +112,7 @@ const projects: Project[] = [
     description: "Bluetooth security research tool demonstrating BT signal disruption for controlled lab environments.",
     tech: ["HTML", "Arduino", "Wireless"],
     link: "https://github.com/masssubash240/Bluetooth-Jammer",
-    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1558483320-dc69223e75e9?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "10",
@@ -121,7 +121,7 @@ const projects: Project[] = [
     description: "BadUSB payloads and Digispark microcontroller scripts for hardware-based pentesting HID attack simulations.",
     tech: ["C++", "Rubber Ducky", "Hardware"],
     link: "https://github.com/masssubash240/USB-Digispark-tools",
-    image: "https://images.unsplash.com/photo-1551288049-915553333333?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "11",
@@ -130,7 +130,7 @@ const projects: Project[] = [
     description: "Automated credential testing tool for web login forms. Supports dictionary attacks and rate-limit analysis.",
     tech: ["Python", "Hydra", "Automation"],
     link: "https://github.com/masssubash240/Web-Login-Bruteforce",
-    image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531746790731-6c2079ee3922?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "12",
@@ -139,7 +139,7 @@ const projects: Project[] = [
     description: "Security automation workflows built with N8n. Automates threat alert triage and incident response pipelines.",
     tech: ["n8n", "Webhooks", "Automation"],
     link: "https://github.com/masssubash240/AI---N8n-security-automations",
-    image: "https://images.unsplash.com/photo-1518433278981-11271f4a4c2b?q=80&w=2576&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "13",
@@ -148,7 +148,7 @@ const projects: Project[] = [
     description: "Privacy-focused AI chatbot with anonymous mode. Context-aware responses with a clean interface for secure communication.",
     tech: ["LLM API", "Prompt Eng.", "UI"],
     link: "https://github.com/masssubash240/Anonymous---Advanced-AI-Chatbot",
-    image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=2606&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=2574&auto=format&fit=crop",
     stars: 1
   },
   {
@@ -158,7 +158,7 @@ const projects: Project[] = [
     description: "Computer vision gaming controller using MediaPipe hand tracking. Maps real-time gestures to game inputs.",
     tech: ["Python", "OpenCV", "MediaPipe"],
     link: "https://github.com/masssubash240/Hand--Gesture-Gaming-Suite",
-    image: "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=2606&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=2670&auto=format&fit=crop"
   },
   {
     id: "15",
@@ -167,7 +167,7 @@ const projects: Project[] = [
     description: "Cross-platform system automation scripts handling task scheduling, file management, and process monitoring.",
     tech: ["Python", "Bash", "Schedules"],
     link: "https://github.com/masssubash240/System-Automation",
-    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1614064641913-6b7140414c71?q=80&w=2670&auto=format&fit=crop",
     stars: 1
   },
   {
@@ -177,7 +177,7 @@ const projects: Project[] = [
     description: "Modular AI workflow pipeline for chaining LLM tasks and automated decision-making in security contexts.",
     tech: ["LangChain", "AI Agents", "Logic"],
     link: "https://github.com/masssubash240/-AI-workflow",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2670&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc4b?q=80&w=2668&auto=format&fit=crop"
   },
   {
     id: "17",
@@ -186,7 +186,7 @@ const projects: Project[] = [
     description: "Advanced AI system for monitoring blockchain transactions and detecting fraudulent patterns in real-time. Protects digital assets with high-fidelity threat intelligence.",
     tech: ["Ethereum", "Solidity", "AI Detection"],
     link: "https://github.com/masssubash240/Crypto-Sentinel",
-    image: "https://images.unsplash.com/photo-1551288049-bb25a5f4981d?q=80&w=2670&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1618060932014-4deda4932554?q=80&w=2670&auto=format&fit=crop",
     stars: 3
   },
   {
@@ -196,7 +196,7 @@ const projects: Project[] = [
     description: "Automated financial gatekeeper for secure transaction processing. Integrates biometric verification with AI-powered risk assessment for institutional security.",
     tech: ["Biometrics", "Deep Learning", "Fintech"],
     link: "https://github.com/masssubash240/FinGate-AI",
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc4b?q=80&w=2668&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?q=80&w=2670&auto=format&fit=crop",
     featured: true
   }
 ];
